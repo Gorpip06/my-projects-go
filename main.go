@@ -11,6 +11,7 @@ func vodim() (string, float64, string) {
 	var b float64
 	var ish1 string
 	var celev1 string
+	
 	for  {
 	fmt.Println("Введите исходную валюту(USD, EUR, RUB)")
 	fmt.Scan(&ish1)
